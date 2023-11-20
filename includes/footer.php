@@ -5,7 +5,7 @@
           <div class="col-md-4 w3l-footer">
             <h2 class="mb-sm-3 mb-2">
               <a href="index.php" class="text-white font-italic font-weight-bold">
-                <span>Blood Bank & </span>Donor Management System 
+                <span>Blood Bank and </span>Donor Management System 
                 <i class="fas fa-syringe ml-2"></i>
               </a>
             </h2>
