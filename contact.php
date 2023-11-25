@@ -96,7 +96,7 @@ echo "<script>alert('Something went wrong. Please try again.');</script>";
 				<span>
 					<i class="fas fa-user-md"></i>
 				</span>
-				<p class="mt-2">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p class="mt-2">Contact</p>
 			</div>
 			<div class="d-flex">
 				<div class="col-lg-5 w3_agileits-contact-left">

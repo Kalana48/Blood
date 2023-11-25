@@ -71,7 +71,7 @@ include('includes/config.php');
 				<span>
 					<i class="fas fa-user-md"></i>
 				</span>
-				<p class="mt-2">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p class="mt-2">Donor List</p>
 			</div>
 			<div class="d-flex">
 				
