@@ -8,7 +8,7 @@ jobs:
 
   build:
 
-    runs-on: Windows 11
+    runs-on: Windows-latest
 
     steps:
     - uses: actions/checkout@v3
