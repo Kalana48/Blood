@@ -21,4 +21,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t kalana48/cicd-pipeline .
     - name: Push to Dockerhub
-      run: docker push kalana48/cicd-pipeline:latest
+      run: docker push kalana48/cicd-pipeline:tagname
