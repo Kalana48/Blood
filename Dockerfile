@@ -1,3 +1,2 @@
-From nginx:latest
-EXPOSE 80
-Copy . /usr/share/nginx/html
+From nginx
+Copy index.php /usr/share/nginx/php
