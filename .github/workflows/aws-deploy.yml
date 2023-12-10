@@ -9,11 +9,11 @@ jobs:
   build-test-deploy:
     runs-on: self-hosted
     
-      steps:
+  steps:
       -name: Checkout code
       uses: actions/checkout@v2
    
-    -name: Log Doc 
+      -name: Log Doc 
     uses: actions/checkout@v3
     with:
         username: ${{ secrets.DOCKER_USERNAME }} 
