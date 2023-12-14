@@ -1,9 +1,10 @@
 <?php 
 // DB credentials.
-$con = mysqli_init();
-mysqli_ssl_set($con,NULL,NULL, "{path to CA cert}", NULL, NULL);
-mysqli_real_connect($conn, "bdms.mysql.database.azure.com", "kalana", "Isuru@7794", "bdms", 3306, MYSQLI_CLIENT_SSL);
-// Establish database connection.
+// DB credentials.
+define('DB_HOST','localhost');
+define('DB_USER','root');
+define('DB_PASS','');
+define('DB_NAME','bbdms');
 try
 {
 $dbh = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER, DB_PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
