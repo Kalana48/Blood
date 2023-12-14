@@ -1,11 +1,18 @@
 <?php 
-$con = mysqli_init();
-mysqli_ssl_set($con,NULL,NULL, "https://github.com/Kalana48/Blood/blob/main/includes/DigiCertGlobalRootCA.crt.pem", NULL, NULL);
-mysqli_real_connect($conn, "bdms.mysql.database.azure.com", "kalana", "Isuru@7794", 3306, MYSQLI_CLIENT_SSL);
-
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+// DB credentials.
+define('DB_HOST','bdms.mysql.database.azure.com');
+define('DB_USER','kalana');
+define('DB_PASS','Isuru@7794');
+define('DB_NAME','bbdms');
+// Establish database connection.
+try
+{
+$dbh = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER, DB_PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
 }
-echo "Connected successfully";
+catch (PDOException $e)
+{
+exit("Error: " . $e->getMessage());
+}
 ?>
+
+
