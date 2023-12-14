@@ -1,2 +1,2 @@
 From nginx:latest
-Copy index.php /usr/share/nginx/php
+Copy index.html /usr/share/nginx/html
