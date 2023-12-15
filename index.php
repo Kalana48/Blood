@@ -7,7 +7,7 @@ include('includes/config.php');
 <html lang="zxx">
 
 <head>
-	<title>Blood Bank Donar Management System Final | Home Page</title>
+	<title>Blood Bank Donar Management System | Home Page</title>
 	
 	<script>
 		addEventListener("load", function () {
@@ -49,7 +49,7 @@ include('includes/config.php');
 					<div class="banner-top1">
 						<div class="banner-info_agile_w3ls">
 							<div class="container">
-								<h3>Blood bank services that you
+								<h3>Blood bank services that you finally
 									<span>can trust</span>
 								</h3>
 								
