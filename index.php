@@ -7,7 +7,7 @@ include('includes/config.php');
 <html lang="zxx">
 
 <head>
-	<title>Blood Bank Donar Management System | Home Page</title>
+	<title>Blood Bank Donar Management System Final | Home Page</title>
 	
 	<script>
 		addEventListener("load", function () {
