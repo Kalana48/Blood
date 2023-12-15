@@ -125,7 +125,7 @@ foreach($results as $result)
                             <?php } ?>
                             <?php if (strlen($_SESSION['bbdmsdid']==0)) {?>
                             <li class="nav-item mx-lg-4 my-lg-0 my-3">
-                                <a class="nav-link" href="admin/index.php">Admin</a>
+                                <a class="nav-link" href="admin/">Admin</a>
                             </li>
                         </ul>
                         <!-- login -->
