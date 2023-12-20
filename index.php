@@ -91,7 +91,7 @@ include('includes/config.php');
 	<div class="banner-bottom py-5">
 		<div class="d-flex container py-xl-3 py-lg-3">
 			<div class="banner-left-bottom-w3ls offset-lg-2 offset-md-1">
-				<h3 class="text-white my-3">High professional doctors</h3>
+				<h3 class="text-white my-3">High professional doctors check CICD</h3>
 				<p>all specialists have extensive practical experience and regularly training courses in educational centers of the
 					world</p>
 			</div>
